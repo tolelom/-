@@ -9,7 +9,7 @@ public:
 
 		for (int i = 2; i < base; i++) {
 			if (((base - 1) % i) == 0)
-				ans.push_back(i);
+				ans.push_back(i);  
 		}
 		return ans;
 	}
